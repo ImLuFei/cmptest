@@ -1,0 +1,21 @@
+{
+    "name": "imlufei/cmptest",
+    "description": "this is a test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenjiaqiang",
+            "email": "chenjiaqiang@xywy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6" 
+    },
+    "autoload":{
+        "psr-4":{ 
+            "Cmptest\\Library":"src/Cmptest/Library" 
+        }
+    }
+}
