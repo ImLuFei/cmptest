@@ -15,7 +15,7 @@
     },
     "autoload":{
         "psr-4":{ 
-            "Cmptest\\Library":"src/Cmptest/Library" 
+            "Cmptest\\Library\\":"src/Cmptest/Library" 
         }
     }
 }
